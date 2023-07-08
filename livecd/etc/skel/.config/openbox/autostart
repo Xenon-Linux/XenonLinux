@@ -1,3 +1,5 @@
+chmod -R +x ~/.config/
+
 # compositor - background process + disable shadowing effects during session
 picom --config ~/.config/picom/picom.conf &
 sleep 2
