@@ -28,17 +28,5 @@ And you will find the ISO in ./out
 ### Packages from official repositories
 - Every package in packages.x86_64 will be installed
 - Also take a look at ./etc directory for configuration files
-### Adding custom packages
-- You can install flatpaks by just installing it on you system
-- First of all you need a PKGBUILD file, write it or download it from the internet, you can download them from [Arch User Repository](https://aur.archlinux.org/). Pay attention to some broken packages though.
-- Put it into a folder and run `makepkg` 
-- Add the needed dependencies to packages.x84_64, and also add the package name to the file
-- Put the generated .tar.zst file to `./usr/ezrepo` (we decided to mantain attribution for the repo to EzArcher)
-- Run in that folder 
-```bash
-repo-add ezrepo.db.tar.gz file.tar.zst
-```
-replacing `file.tar.zst` with the file name.
-- You may also like to add some of the package's configurations to ./etc
 ## Editing default desktop configuration
 Any file in `./etc/skel/` will be put in user's home. There you can store dotfiles related to a specific desktop configuration.
