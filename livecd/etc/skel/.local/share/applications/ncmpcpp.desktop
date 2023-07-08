@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=ncmpcpp (music player)
+Comment=Launches the ncmpcpp music player
+Icon=utilities-terminal
+Terminal=false
+Exec=alacritty -e ncmpcpp
+Categories=ConsoleOnly;Music;MusicPlayer
+MimeType=inode/directory;
+Keywords=Music;MusicPlayer;MPD;NCMPCPP;ncmpcpp

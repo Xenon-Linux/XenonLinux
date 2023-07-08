@@ -1,0 +1,29 @@
+import:
+  - ~/.config/alacritty/nord.yaml
+  - ~/.config/alacritty/fonts.yml
+  
+window:
+  padding:
+    x: 15
+    y: 15
+
+  decorations: full
+
+  opacity: 1.0
+  dynamic_title: true
+
+  history: 10000
+  multiplier: 3
+
+selection:
+  save_to_clipboard: false
+
+cursor:
+  style:
+    shape: Beam
+    blinking: Off
+    
+  unfocused_hollow: false 
+  blink_interval: 550
+
+live_config_reload: true
