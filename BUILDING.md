@@ -10,12 +10,6 @@ sudo pacman -Syu
 ```bash
 sudo pacman -S archiso
 ```
-- If you want to ship pre-installed flatpak, install flatpak and run install_flatpaks.sh
-```bash
-sudo pacman -S flatpak
-sudo ./install_flatpaks.sh
-```
-**If you have pre-installed flatpaks on your system, they will be added to the ISO**
 
 ## Running the script
 - To build the ISO just run 
