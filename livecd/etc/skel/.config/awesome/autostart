@@ -1,0 +1,17 @@
+#!/bin/sh
+
+run() {
+	if ! pgrep -f "$1" ; then
+		"$@"&
+	fi
+}
+
+run /usr/bin/prime-offload
+run picom --config ~/.config/picom/picom.conf
+run xsettingsd
+run nm-applet
+run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+run xrdb merge ~/.Xresources
+run ibus-daemon -drx
+run blueberry-tray
+run xfce4-power-manager --daemon

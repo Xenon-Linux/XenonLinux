@@ -1,0 +1,49 @@
+st.font: Iosevka Nerd Font-12;
+
+#define BG #24273a
+#define FG #cad3f5
+#define BL #494d64
+#define WH #b8c0e0
+#define R #ed8796
+#define G #a6da95
+#define Y #eed49f
+#define B #8aadf4
+#define M #f5bde6
+#define C #8bd5ca
+
+! special
+*.foreground:   FG
+*.background:   BG
+*.cursorColor:  FG
+
+! black
+*.color0:       BL
+*.color8:       BL
+
+! red
+*.color1:       R
+*.color9:       R
+
+! green
+*.color2:       G
+*.color10:      G
+
+! yellow
+*.color3:       Y
+*.color11:      Y
+
+! blue
+*.color4:       B
+*.color12:      B
+
+! magenta
+*.color5:       M
+*.color13:      M
+
+! cyan
+*.color6:       C
+*.color14:      C
+
+! white
+*.color7:       WH
+*.color15:      WH
