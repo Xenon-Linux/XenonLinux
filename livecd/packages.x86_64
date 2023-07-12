@@ -40,7 +40,6 @@ irssi
 iw
 iwd
 jfsutils
-kitty-terminfo
 less
 libfido2
 libusb-compat
@@ -104,7 +103,6 @@ sudo
 syslinux
 systemd-resolvconf
 tcpdump
-terminus-font
 testdisk
 tmux
 tpm2-tss
@@ -121,7 +119,6 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-zsh
 
 # System
 archiso
@@ -134,7 +131,6 @@ bluez
 bluez-utils
 blueman
 cdrtools
-cmake
 cryfs
 devtools
 dkms
@@ -326,7 +322,6 @@ thunar-archive-plugin
 thunar-volman
 w3m
 xarchiver
-xclip
 xdg-user-dirs-gtk
 xfce4-power-manager
 xfce4-screenshooter
