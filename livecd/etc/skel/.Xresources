@@ -1,4 +1,6 @@
 st.font: Iosevka Nerd Font-12;
+st.borderpx: 16
+st.cursorshape: 6
 
 #define BG #24273a
 #define FG #cad3f5
