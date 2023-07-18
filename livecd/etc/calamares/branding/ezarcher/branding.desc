@@ -129,11 +129,7 @@ strings:
     versionedName:       penguinArch Linux
     shortVersionedName:  penguinArch Linux
     bootloaderEntryName: penguinArch
-    productUrl:          https://sourceforge.net/projects/ezarch/
-#   supportUrl:          https://sourceforge.net/projects/ezarch/
-#   knownIssuesUrl:      https://sourceforge.net/projects/ezarch/
-#   releaseNotesUrl:     https://sourceforge.net/projects/ezarch/
-#   donateUrl:           https://sourceforge.net/projects/ezarch/
+    productUrl:          https://github.com/penguinArchLinux/penguinArch
 
 # These images are loaded from the branding module directory.
 #
