@@ -35,7 +35,7 @@ client.connect_signal("request::titlebars", function(c)
 
 	-- Titlebar
 
-    awful.titlebar(c, { size = dpi(36) } ).widget = {
+    awful.titlebar(c, { size = dpi(38) } ).widget = {
 		{
 			awful.titlebar.widget.titlewidget(c), 
 			left = dpi(15),

@@ -5,7 +5,7 @@ source $HOME/.config/awesome/color/desktop.sh
 # Colors
 BG="#282828"
 FG="#ebdbb2"
-BL="#282828"
+BL="#1d2021"
 WH="#a89984"
 R="#cc241d"
 G="#98971a"

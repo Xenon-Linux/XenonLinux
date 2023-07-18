@@ -75,12 +75,11 @@ awful.keyboard.append_global_keybindings({
         { description = "show config", group = "awesome" }
 	),
     awful.key(
-		{ mod }, "l", function() 
+		{ mod }, "BackSpace", function()
 			awful.util.spawn("awesome-client command lockscreen()")
 		end,
         { description = "lockscreen", group = "awesome" }
 	),
-
 
 	-- Programs
 
@@ -101,23 +100,16 @@ awful.keyboard.append_global_keybindings({
 
 	awful.key(
 		{ mod }, "Delete", function() 
-			awesome.emit_signal("screenshot::full") 
+			awful.util.spawn("xfce4-screenshooter") 
 		end,
-        { description = "full screen", group = "screenshot" }
+        { description = "screenshot", group = "screenshot" }
 	),
 	awful.key(
-		{ mod, "Control" }, "Delete", function()
-			awesome.emit_signal("screenshot::fullwait")
+		{ }, "Print", function() 
+			awful.util.spawn("xfce4-screenshooter") 
 		end,
-        { description = "full screen delay", group = "screenshot" }
+        { description = "screenshot", group = "screenshot" }
 	),
-	awful.key(
-		{ mod, "Shift" }, "Delete", function() 
-			awesome.emit_signal("screenshot::part") 
-		end,
-        { description = "part screen", group = "screenshot" }
-	),
-
 	-- Volume
 
     awful.key(
@@ -294,6 +286,63 @@ client.connect_signal("request::default_keybindings", function()
 			end,
  			{ description = "close", group = "client" }
 		),
+        -- Focus client by direction (hjkl keys)
 
+        awful.key({ mod }, "j",
+        function()
+            awful.client.focus.bydirection("down")
+        end,
+            {description = "focus down", group = "client"}),
+        awful.key({ mod }, "k",
+        function()
+            awful.client.focus.bydirection("up")
+        end,
+        {description = "focus up", group = "client"}),
+        awful.key({ mod }, "h",
+        function()
+            awful.client.focus.bydirection("left")
+        end,
+        {description = "focus left", group = "client"}),
+        awful.key({ mod }, "l",
+        function()
+            awful.client.focus.bydirection("right")
+        end,
+        {description = "focus right", group = "client"}),
+
+    -- Focus client by direction (arrow keys)
+
+       awful.key({ mod }, "Down",
+        function()
+            awful.client.focus.bydirection("down")
+        end,
+        {description = "focus down", group = "client"}),
+        awful.key({ mod }, "Up",
+        function()
+            awful.client.focus.bydirection("up")
+        end,
+        {description = "focus up", group = "client"}),
+        awful.key({ mod }, "Left",
+        function()
+            awful.client.focus.bydirection("left")
+        end,
+        {description = "focus left", group = "client"}),
+        awful.key({ mod }, "Right",
+        function()
+            awful.client.focus.bydirection("right")
+        end,
+        {description = "focus right", group = "client"}),
+        -- Gaps
+        awful.key({ mod, "Shift" }, "minus",
+        function ()
+            awful.tag.incgap(5, nil)
+        end,
+        {description = "increment gaps size for the current tag", group = "gaps"}
+    ),
+        awful.key({ mod }, "minus",
+        function ()
+            awful.tag.incgap(-5, nil)
+        end,
+        {description = "decrement gap size for the current tag", group = "gaps"}
+    ),
     })
 end)

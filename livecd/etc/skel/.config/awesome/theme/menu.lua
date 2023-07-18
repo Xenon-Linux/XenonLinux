@@ -558,8 +558,9 @@ local power = wibox.widget {
 	button{ icon="", exec=user.exit },
 	button{ icon="", exec=user.shutdown },
 	button{ icon="", exec=user.reboot },
-	forced_num_cols = 2,
-	spacing = dpi(15),
+    button{ icon="", exec=user.suspend },
+	forced_num_cols = 3,
+	spacing = dpi(10),
 	layout = wibox.layout.grid
 }
 
@@ -571,7 +572,7 @@ local systray = wibox.widget {
 			{
 				{
 					widget = wibox.widget.systray,
-					base_size = dpi(24),
+					base_size = dpi(32),
 					horizontal = false
 				},
 				widget = wibox.layout.align.vertical
@@ -580,13 +581,13 @@ local systray = wibox.widget {
 			halign = "left",
 			layout = wibox.container.place
 		},
-		top = dpi(18),
-		bottom = dpi(18),
-		left = dpi(26),
-		right = dpi(26),
+		top = dpi(4),
+		bottom = dpi(4),
+		left = dpi(4),
+		right = dpi(4),
 		widget = wibox.container.margin
 	},
-	forced_width = dpi(165),
+	forced_width = dpi(185),
 	forced_height = dpi(105),
 	bg = beautiful.bg_focus,
 	widget = wibox.container.background

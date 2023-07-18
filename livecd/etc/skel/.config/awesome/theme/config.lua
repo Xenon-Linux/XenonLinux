@@ -462,7 +462,6 @@ local color = wibox.widget {
 -- General
 
 local general = wibox.widget {
-	guiselect("Screenshots", "shotdir", user.shotdir, "~/Pictures/Screenshots/", "dir"),
 	inputbox("Battery", "batt", user.batt, "BAT0"),
 	inputbox("Password", "passwd", user.passwd, "awesomewm"),
 	modkey,
@@ -475,10 +474,11 @@ local general = wibox.widget {
 -- Apps
 
 local app = wibox.widget {
-	inputbox("Terminal", "terminal", user.terminal, "alacritty"),
+	inputbox("Terminal", "terminal", user.terminal, "xst"),
 	inputbox("Web Browser", "browser", user.browser, "librewolf"),
-	inputbox("File Manager", "files", user.files, "thunar"),
+	inputbox("File Manager", "files", user.files, "nemo"),
 	inputbox("Text Editor", "editor", user.editor, "nvim"),
+	inputbox("Music Player", "music", user.music, "xst -e ncmpcpp"),
 	visible = false,
 	spacing = dpi(15),
 	layout = wibox.layout.fixed.vertical
@@ -491,6 +491,7 @@ local command = wibox.widget {
 	inputbox("Exit", "exit", user.exit, "awesome-client command \"awesome.quit()\""),
 	inputbox("Shutdown", "shutdown", user.shutdown, "systemctl poweroff"),
 	inputbox("Reboot", "reboot", user.reboot, "systemctl reboot"),
+	inputbox("Suspend", "suspend", user.suspend, "systemctl suspend"),
 	visible = false,
 	spacing = dpi(15),
 	layout = wibox.layout.fixed.vertical

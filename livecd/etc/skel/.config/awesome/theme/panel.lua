@@ -122,7 +122,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
 
     s.wibar = awful.wibar {
 		position = "bottom",
-		height = dpi(38),
+		height = dpi(42),
 		bg = beautiful.bg_normal,
 		fg = beautiful.fg_normal,
         screen = s,
