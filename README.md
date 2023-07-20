@@ -27,3 +27,6 @@ pass: toor
 sudo calamares (live account)
 calamares (root account)
 ```
+
+# Build
+Read [this](https://github.com/penguinArchLinux/penguinArch/blob/main/BUILDING.md) for more information
