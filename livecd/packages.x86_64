@@ -71,7 +71,6 @@ nbd
 ndisc6
 nfs-utils
 nilfs-utils
-nmap
 ntfs-3g
 nvme-cli
 open-iscsi
@@ -104,7 +103,6 @@ syslinux
 systemd-resolvconf
 tcpdump
 testdisk
-tmux
 tpm2-tss
 udftools
 usb_modeswitch
@@ -286,6 +284,7 @@ lxappearance-gtk3
 mpc
 mpd
 ncmpcpp
+nemo
 neovim
 pavucontrol
 picom
@@ -294,10 +293,6 @@ polkit-gnome
 qogir-icon-theme
 ranger
 sed
-sxhkd
-thunar
-thunar-archive-plugin
-thunar-volman
 w3m
 xarchiver
 xdg-user-dirs-gtk
