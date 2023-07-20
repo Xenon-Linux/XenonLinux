@@ -23,4 +23,7 @@ user: su
 pass: toor
 ```
 - Run the installer
-```sudo calamares```
+```
+sudo calamares (live account)
+calamares (root account)
+```
