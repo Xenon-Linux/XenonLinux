@@ -110,7 +110,6 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
 virtualbox-guest-utils
 vpnc
 wireless-regdb
@@ -145,9 +144,6 @@ gnome-keyring
 gocryptfs
 gparted
 haveged
-hspell
-hunspell
-hunspell-en_us
 hwdata
 hwdetect
 hwinfo
@@ -194,23 +190,13 @@ alsa-lib
 alsa-plugins
 alsa-firmware
 alsa-utils
-cdrdao
-dvdauthor
 faac
 ffmpeg
 ffmpegthumbnailer
 flac
-gstreamer
-gst-libav
-gst-plugins-base
-gst-plugins-good
-gst-plugins-bad
-gst-plugins-ugly
-gstreamer-vaapi
 libdvdcss
 libopenraw
 mencoder
-mjpegtools
 mpv
 # Pipewire - comment out pulseaudio packages if using pipewire
 pipewire
@@ -218,8 +204,6 @@ pipewire-alsa
 pipewire-docs
 pipewire-jack
 pipewire-pulse
-alsa-card-profiles
-gst-plugin-pipewire
 wireplumber
 # Pulseaudio - comment out pipewire packages if using pulseaudio
 # pulseaudio
@@ -267,12 +251,9 @@ whois
 
 # Fonts
 ttf-dejavu
-ttf-liberation
 noto-fonts
 ttf-opensans
 freetype2
-ttf-iosevka-nerd
-ttf-sarasa-gothic
 
 # Printing Support
 cups
@@ -289,10 +270,9 @@ system-config-printer
 
 # Window Manager
 arandr
-awesome
+awesome-git
 brightnessctl
 btop
-calcurse
 dunst
 feh
 fish
@@ -303,7 +283,6 @@ inotify-tools
 librewolf-bin
 lmaofetch
 lxappearance-gtk3
-maim
 mpc
 mpd
 ncmpcpp
@@ -324,6 +303,7 @@ xarchiver
 xdg-user-dirs-gtk
 xfce4-power-manager
 xfce4-screenshooter
+xst-git
 zathura
 zathura-pdf-mupdf
 zip

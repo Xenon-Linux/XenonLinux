@@ -15,4 +15,3 @@ run xrdb merge ~/.Xresources
 run ibus-daemon -drx
 run blueberry-tray
 run xfce4-power-manager --daemon
-run chmod -R +x ~/.config

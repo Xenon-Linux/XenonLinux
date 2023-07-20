@@ -108,19 +108,6 @@ theme.pfp = user.pfp or gears.color.recolor_image(icon_path .. "pfp.png", color.
 theme.layout_floating  = gears.color.recolor_image(icon_path .. "floating.png", color.fg)
 theme.layout_max	   = gears.color.recolor_image(icon_path .. "max.png", color.fg)
 theme.layout_tile	   = gears.color.recolor_image(icon_path .. "tile.png", color.fg)
-theme.layout_tileleft	   = gears.color.recolor_image(icon_path .. "tileleft.png", color.fg)
-theme.layout_tilebottom	   = gears.color.recolor_image(icon_path .. "tilebottom.png", color.fg)
-theme.layout_tiletop	   = gears.color.recolor_image(icon_path .. "tiletop.png", color.fg)
-theme.layout_fairv	   = gears.color.recolor_image(icon_path .. "fairv.png", color.fg)
-theme.layout_fairh	   = gears.color.recolor_image(icon_path .. "fairh.png", color.fg)
-theme.layout_spiral	   = gears.color.recolor_image(icon_path .. "spiral.png", color.fg)
-theme.layout_dwindle	   = gears.color.recolor_image(icon_path .. "dwindle.png", color.fg)
-theme.layout_fullscreen	   = gears.color.recolor_image(icon_path .. "fullscreen.png", color.fg)
-theme.layout_magnifier	   = gears.color.recolor_image(icon_path .. "magnifier.png", color.fg)
-theme.layout_cornernw	   = gears.color.recolor_image(icon_path .. "cornernw.png", color.fg)
-theme.layout_cornerne	   = gears.color.recolor_image(icon_path .. "cornerne.png", color.fg)
-theme.layout_cornersw	   = gears.color.recolor_image(icon_path .. "cornersw.png", color.fg)
-theme.layout_cornerse	   = gears.color.recolor_image(icon_path .. "cornerse.png", color.fg)
 
 -- Titlebar icons
 

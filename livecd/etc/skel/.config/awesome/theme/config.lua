@@ -463,7 +463,7 @@ local color = wibox.widget {
 
 local general = wibox.widget {
 	inputbox("Battery", "batt", user.batt, "BAT0"),
-	inputbox("Password", "passwd", user.passwd, "awesomewm"),
+	inputbox("Password", "passwd", user.passwd, "123"),
 	modkey,
 	toggle("Lock at Login", "sessionlock", user.sessionlock),
 	visible = true,
@@ -502,8 +502,8 @@ local command = wibox.widget {
 local theme = wibox.widget {
 	guiselect("Wallpaper", "wallpaper", user.wallpaper, nil, "file"),
 	guiselect("Profile Picture", "pfp", user.pfp, nil, "file"),
-	inputbox("Font", "font", user.font, "Iosevka Nerd Font Regular 11"),
-	inputbox("Alt Font", "fontalt", user.fontalt, "Iosevka Nerd Font Italic 11"),
+	inputbox("Font", "font", user.font, "Cozette Nerd Font 11"),
+	inputbox("Alt Font", "fontalt", user.fontalt, "Cozette Nerd Font 11"),
 	inputbox("Icon Font", "fonticon", user.fonticon, "Material Icons 16"),
 	toggle("Titlebar Controls", "titlecontrols", user.titlecontrols),
 	toggle("Panel Controls", "panelcontrols", user.panelcontrols),

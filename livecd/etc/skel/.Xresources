@@ -1,5 +1,5 @@
-st.font: Iosevka Nerd Font-12;
-st.borderpx: 16
+st.font: Cozette Nerd Font-12;
+st.borderpx: 24
 st.cursorshape: 6
 
 #define BG #24273a
@@ -49,3 +49,5 @@ st.cursorshape: 6
 ! white
 *.color7:       WH
 *.color15:      WH
+Xcursor.theme: Qogir-dark
+Xcursor.size: 16

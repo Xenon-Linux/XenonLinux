@@ -4,7 +4,7 @@ local color = {}
 
 color.bg      	   = "#282828"
 color.fg 	   	   = "#ebdbb2"
-color.black		   = "#282828"
+color.black		   = "#1d2021"
 color.white		   = "#a89984"
 color.red		   = "#cc241d"
 color.green		   = "#98971a"
