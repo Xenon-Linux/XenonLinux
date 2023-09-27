@@ -1,5 +1,5 @@
-# penguinArch
-penguinArch is an Arch-based Linux distro that focus on simplicity, sustainability and user freedom.
+# XenonLinux
+XenonLinux is an Arch-based Linux distro that focus on simplicity, sustainability and user freedom.
 | Catppuccin | Dracula | Everforest |
 | :--------- | :------ | :--------- |
 | ![img](https://i.imgur.com/fhWPCbv.png) | ![img](https://i.imgur.com/dyUdecT.png) | ![img](https://i.imgur.com/1EULM9G.png) |
@@ -9,7 +9,7 @@ penguinArch is an Arch-based Linux distro that focus on simplicity, sustainabili
 | ![img](https://i.imgur.com/CEKqi18.png) |
 
 # Installation
-- Download penguinArch iso
+- Download XenonLinux iso
 - Flash iso into an usb
 - Boot into usb
 - Login
