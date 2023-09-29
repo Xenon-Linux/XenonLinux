@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Install System
+Name=Install Xenon Linux
 GenericName=System Installer
 Keywords=calamares;system;installer;
 TryExec=calamares
-Exec=sh -c "pkexec calamares"
+Exec=pkexec calamares
 Comment=Calamares — System Installer
 Icon=calamares
 Terminal=false
@@ -65,7 +65,7 @@ Name[el]=Εγκατάσταση συστήματος
 Icon[el]=calamares
 GenericName[el]=Εγκατάσταση συστήματος
 Comment[el]=Calamares — Εγκατάσταση συστήματος
-Name[en_GB]=Install System
+Name[en_GB]=Install Xenon Linux
 Icon[en_GB]=calamares
 GenericName[en_GB]=System Installer
 Comment[en_GB]=Calamares — System Installer

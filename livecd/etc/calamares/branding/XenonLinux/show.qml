@@ -53,7 +53,7 @@ Presentation
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width *.020
                 color: 'white'
-                text: qsTr("<b>Welcome to penguinArch, an Arch based Linux<br/>")
+                text: qsTr("<b>Welcome to Xenon Linux, an Arch based Linux<br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
@@ -80,7 +80,7 @@ Presentation
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width *.020
                 color: 'white'
-                text: qsTr("<b>penguinArch is 100% compatible with Arch Linux<br/>")
+                text: qsTr("<b>Xenon Linux is 100% compatible with Arch Linux<br/>")
                 
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
@@ -108,7 +108,7 @@ Presentation
                 anchors.horizontalCenterOffset: 0
                 font.pixelSize: parent.width *.020
                 color: 'white'
-                text: qsTr("<b>Thank you for trying penguinArch<br/>")
+                text: qsTr("<b>Thank you for trying Xenon Linux<br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
