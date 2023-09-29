@@ -8,6 +8,12 @@ XenonLinux is an Arch-based Linux distro that focus on simplicity, sustainabilit
 | Cozy |
 | ![img](https://i.imgur.com/CEKqi18.png) |
 
+# To-do
+- [] Auto login
+- [-] Installer
+- [-] Optimize source code
+- [] Wiki
+
 # Installation
 - Download XenonLinux iso
 - Flash iso into an usb
@@ -23,10 +29,8 @@ user: su
 pass: toor
 ```
 - Run the installer
-```
-sudo calamares (live account)
-calamares (root account)
-```
+  - Open launcher by pressing `Mod + d`
+  - Choose `Install system`
 
 # Build
-Read [this](https://github.com/penguinArchLinux/penguinArch/blob/main/BUILDING.md) for more information
+Read [this](https://github.com/Xenon-Linux/XenonLinux/blob/main/BUILDING.md) for more information
