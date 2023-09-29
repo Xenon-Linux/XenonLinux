@@ -10,10 +10,10 @@ XenonLinux is an Arch-based Linux distro that focus on simplicity, sustainabilit
 
 # To-do
 - [ ] Auto login
-- [ ] Installer
+- [x] Installer
 - [ ] Optimize source code
 - [ ] Wiki
-- [ ] Logo
+- [x] Logo
 
 # Installation
 - Download XenonLinux iso
