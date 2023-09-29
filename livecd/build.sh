@@ -26,7 +26,7 @@ MYUSRPASSWD="live"
 RTPASSWD="toor"
 # Pick a root password
 
-MYHOSTNM="xenonlinux"
+MYHOSTNM="xenonlive"
 # Pick a hostname for the machine
 
 # ----------------------------------------
@@ -36,7 +36,7 @@ MYHOSTNM="xenonlinux"
 # Test for root user
 rootuser () {
   if [[ "$EUID" = 0 ]]; then
-    echo "ok"
+    continue
   else
     echo "Please Run As Root"
     sleep 2
@@ -116,6 +116,7 @@ cp -r efiboot ./ezreleng/
 cp -r syslinux ./ezreleng/
 cp -r etc ./ezreleng/airootfs/
 cp -r usr ./ezreleng/airootfs/
+ln -sf /usr/share/ezarcher ./ezreleng/airootfs/etc/skel/ezarcher
 }
 
 # Set hostname
@@ -126,7 +127,7 @@ echo "${MYHOSTNM}" > ./ezreleng/airootfs/etc/hostname
 # Create passwd file
 crtpasswd () {
 echo "root:x:0:0:root:/root:/usr/bin/bash
-"${MYUSERNM}":x:0:0::/home/"${MYUSERNM}":/bin/bash" > ./ezreleng/airootfs/etc/passwd
+"${MYUSERNM}":x:1010:1010::/home/"${MYUSERNM}":/bin/bash" > ./ezreleng/airootfs/etc/passwd
 }
 
 # Create group file
