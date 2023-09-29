@@ -173,7 +173,6 @@ pipewire-jack
 pipewire-pulse
 wireplumber
 sox
-transcode
 x265
 x264
 xvidcore
