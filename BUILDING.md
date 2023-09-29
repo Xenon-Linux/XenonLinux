@@ -14,7 +14,7 @@ sudo pacman -S archiso
 ## Running the script
 - To build the ISO just run 
 ```bash
-sudo ./steps.sh
+sudo ./build.sh
 ```
 And you will find the ISO in ./out
 
