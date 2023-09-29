@@ -1,5 +1,5 @@
-NAME="penguinArch Linux"
-PRETTY_NAME="penguinArch Linux"
+NAME="XenonLinux"
+PRETTY_NAME="Xenon Linux"
 ID=arch
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"

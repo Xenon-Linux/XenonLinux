@@ -1,5 +1,4 @@
 local theme_path = require("gears").filesystem.get_configuration_dir() .. "color/dracula/"
-
 local color = {}
 
 color.bg      	   = "#282a36"
@@ -13,8 +12,7 @@ color.blue		   = "#bd93f9"
 color.magenta	   = "#ff79c6"
 color.cyan		   = "#8be9fd"
 
-color.bgalt	   	   = color.black
-color.wall	   	   = theme_path .. "dracula768.png"
+color.bgalt        = color.black
 color.icons		   = "Qogir-dark"
 
 return color

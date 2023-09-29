@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="penguinArch"
-iso_label="PENGUINARCH_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m)"
-iso_publisher="penguinArchLinux <https://github.com/penguinArchLinux"
-iso_application="penguinArch LiveCD"
+iso_name="XenonLinux"
+iso_label="XENONLINUX_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m)"
+iso_publisher="XenonLinux <https://github.com/Xenon-Linux>"
+iso_application="Xenon Linux LiveCD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m%d)"
 install_dir="arch"
 buildmodes=('iso')

@@ -18,5 +18,6 @@ C="#8be9fd"
 term 
 # func - gtk - icons 
 gtk "Dracula-GTK" "Qogir-dark" 
-# func - background - background 2 - background 3 - foreground
-css $BG "#24273a" "#494d64" $FG 
+# wall
+cp ~/.config/awesome/color/dracula/.fehbg ~/
+./.fehbg

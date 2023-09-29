@@ -26,7 +26,7 @@ MYUSRPASSWD="live"
 RTPASSWD="toor"
 # Pick a root password
 
-MYHOSTNM="penguinarch"
+MYHOSTNM="xenonlinux"
 # Pick a hostname for the machine
 
 # ----------------------------------------

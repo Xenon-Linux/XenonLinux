@@ -1,5 +1,4 @@
 local theme_path = require("gears").filesystem.get_configuration_dir() .. "color/catppuccin/"
-
 local color = {}
 
 color.bg      	   = "#24273a"
@@ -13,8 +12,7 @@ color.blue		   = "#8aadf4"
 color.magenta	   = "#f5bde6"
 color.cyan		   = "#8bd5ca"
 
-color.bgalt	   	   = color.black
-color.wall	   	   = theme_path .. "catppuccin768.png"
+color.bgalt        = color.black
 color.icons		   = "Qogir-dark"
 
 return color

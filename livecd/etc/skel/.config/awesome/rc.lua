@@ -1,10 +1,3 @@
--- To Do:
--- Panel redesign
--- Widget placement userconf
--- Theme reloading
--- Multihead support
--- Refactoring, always
-
 -- Errors
 
 require("naughty").connect_signal("request::display_error", function(message, startup)
@@ -29,6 +22,9 @@ require("awful.autofocus")
 require("signal")
 require("config")
 require("theme")
+
+-- Screen setup
+require("awful").spawn.with_shell("~/.screenlayout/monitor.sh")
 
 -- Autostart
 

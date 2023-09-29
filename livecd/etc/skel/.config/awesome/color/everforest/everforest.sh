@@ -3,9 +3,9 @@
 source $HOME/.config/awesome/color/desktop.sh
 
 # Colors
-BG="#2d353b"
+BG="#272e33"
 FG="#d3c6aa"
-BL="#475258"
+BL="#414b50"
 WH="#d3c6aa"
 R="#e67e80"
 G="#a7c080"
@@ -18,5 +18,6 @@ C="#83c092"
 term 
 # func - gtk - icons 
 gtk "Everforest-Dark-B" "Qogir-dark" 
-# func - background - background 2 - background 3 - foreground
-css $BG "#3c3836" "#504945" $FG 
+# wall
+cp ~/.config/awesome/color/everforest/.fehbg ~/
+./.fehbg

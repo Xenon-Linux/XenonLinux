@@ -4,19 +4,20 @@ source $HOME/.config/awesome/color/desktop.sh
 
 # Colors
 BG="#1a1b26"
-FG="#a9b1d6"
-BL="#32344a"
-WH="#787c99"
+FG="#c0caf5"
+BL="#15161e"
+WH="#a9b1d6"
 R="#f7768e"
 G="#9ece6a"
 Y="#e0af68"
 B="#7aa2f7"
-M="#ad8ee6"
-C="#449dab"
+M="#bb9af7"
+C="#7dcfff"
 
 # func (change colors in #Colors section)
 term 
 # func - gtk - icons 
-gtk "Tokyonight-Dark-B" "Qogir-dark" 
-# func - background - background 2 - background 3 - foreground
-css $BG "#1a1b26" "#1a1b26" $FG 
+gtk "Nord-GTK" "Qogir-dark" 
+# wall
+cp ~/.config/awesome/color/tokyonight/.fehbg ~/
+./.fehbg

@@ -4,7 +4,9 @@ function hovercursor(widget)
 	local oldcursor, oldwibox
 	widget:connect_signal("mouse::enter", function()
 		local wb = mouse.current_wibox
-		if wb == nil then return end
+		if wb == nil then
+			return
+		end
 		oldcursor, oldwibox = wb.cursor, wb
 		wb.cursor = "hand2"
 	end)
@@ -17,13 +19,10 @@ function hovercursor(widget)
 	return widget
 end
 
-require("theme.desktop")
-require("theme.panel")
-require("theme.title")
-require("theme.notif")
+require("theme.bar")
+require("theme.titlebar")
+require("theme.notify")
 require("theme.volume")
 require("theme.brightness")
 require("theme.menu")
-require("theme.launcher")
-require("theme.lock")
 require("theme.config")

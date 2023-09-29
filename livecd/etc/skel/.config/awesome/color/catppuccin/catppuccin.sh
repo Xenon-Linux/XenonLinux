@@ -18,5 +18,6 @@ C="#8bd5ca"
 term 
 # func - gtk - icons 
 gtk "Catppuccin-Macchiato" "Qogir-dark" 
-# func - background - background 2 - background 3 - foreground
-css $BG "#24273a" "#494d64" $FG
+# wall
+cp ~/.config/awesome/color/catppuccin/.fehbg ~/
+./.fehbg

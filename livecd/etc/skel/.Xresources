@@ -1,17 +1,29 @@
-st.font: Cozette Nerd Font-12;
-st.borderpx: 24
-st.cursorshape: 6
+# Normal
+st.font:              Cascadia Code:pixelsize=16:antialias=true:autohint=true
+st.borderpx:          32
+# Xft.dpi: 120
 
-#define BG #24273a
-#define FG #cad3f5
-#define BL #494d64
-#define WH #b8c0e0
-#define R #ed8796
-#define G #a6da95
-#define Y #eed49f
-#define B #8aadf4
-#define M #f5bde6
-#define C #8bd5ca
+# For High Resolution screens (uncomment to use it)
+#st.font:              Cascadia Code:pixelsize=22:antialias=true:autohint=true
+#st.borderpx:          32
+#Xft.dpi: 120
+
+# For Low Resolution screens (uncomment to use it)
+#st.font:              Cascadia Code:pixelsize=12:antialias=true:autohint=true
+#st.borderpx:          32
+#Xft.dpi: 70
+
+# Colors
+#define BG #101010
+#define FG #f8f8f6
+#define BL #242424
+#define WH #fefefe
+#define R #ff8989
+#define G #f2ff8a
+#define Y #fefa67
+#define B #a978f6
+#define M #fd56f9
+#define C #8afeff
 
 ! special
 *.foreground:   FG
@@ -49,5 +61,3 @@ st.cursorshape: 6
 ! white
 *.color7:       WH
 *.color15:      WH
-Xcursor.theme: Qogir-dark
-Xcursor.size: 16

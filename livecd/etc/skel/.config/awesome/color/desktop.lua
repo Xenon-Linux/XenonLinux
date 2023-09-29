@@ -2,8 +2,6 @@ local config="$HOME/.config"
 local xresources="$HOME/.Xresources"
 local xsettingsd="$HOME/.xsettingsd"
 local gtk=config.."/gtk-3.0/settings.ini"
-local librewolf="$HOME/.librewolf/*.default-default/chrome"
-local firefox="$HOME/.mozilla/firefox/*.default-release/chrome"
 local awesomewm=config.."/awesome"
 
 local function terminal(fg, bg, bl, wh, r, g, y, b, m, c)
@@ -33,21 +31,6 @@ local function gtk(gtk, icon)
 				-e \"s/Net\/IconThemeName .*/Net\/IconThemeName \""..icon.."\"/g\" "..xsettingsd
 	)
 	awful.spawn.easy_async_with_shell(xsettingsd &)
-end
-
-local function css(bg, bg2, bg3, fg)
-	awful.spawn.easy_async_with_shell(
-		"sed -i -e \"s/--bg: .*/--bg: "..bg.." !important;/g\" \
-				-e \"s/--bg2: .*/--bg2: "..bg2.." !important;/g\" \
-				-e \"s/--bg3: .*/--bg3: "..bg3.." !important;/g\" \
-				-e \"s/--fg: .*/--fg: "..fg.." !important;/g\" "..librewolf.."/userContent.css"
-	)
-	awful.spawn.easy_async_with_shell(
-		"sed -i -e \"s/--bg: .*/--bg: "..bg.." !important;/g\" \
-				-e \"s/--bg2: .*/--bg2: "..bg2.." !important;/g\" \
-				-e \"s/--bg3: .*/--bg3: "..bg3.." !important;/g\" \
-				-e \"s/--fg: .*/--fg: "..fg.." !important;/g\" "..firefox.."/userContent.css"
-	)
 end
 
 local function awesomewm(color)

@@ -1,3 +1,3 @@
 require("config.main")
-require("config.bind")
+require("config.keys")
 require("config.rule")

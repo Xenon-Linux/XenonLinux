@@ -4,8 +4,6 @@
 config="$HOME/.config"
 xresources="$HOME/.Xresources"
 gtk="$config/gtk-3.0/settings.ini"
-librewolf="$HOME/.librewolf/*.default-default/chrome"
-firefox="$HOME/.mozilla/firefox/*.default-release/chrome"
 
 term() {
 # Xresources
@@ -32,15 +30,3 @@ sed -i -e "s/Net\/ThemeName .*/Net\/ThemeName \"$1\"/g" \
 # Apply
 xsettingsd &
 }
-
-donecss() {
-sed -i -e "s/--bg: .*/--bg: $1 !important;/g" \
-       -e "s/--bg2: .*/--bg2: $2 !important;/g" \
-       -e "s/--bg3: .*/--bg3: $3 !important;/g" \
-       -e "s/--fg: .*/--fg: $4 !important;/g" $librewolf/userContent.css
-sed -i -e "s/--bg: .*/--bg: $1 !important;/g" \
-       -e "s/--bg2: .*/--bg2: $2 !important;/g" \
-       -e "s/--bg3: .*/--bg3: $3 !important;/g" \
-       -e "s/--fg: .*/--fg: $4 !important;/g" $firefox/userContent.css
-}
-

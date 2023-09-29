@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill ~/.config/awesome/color/tokyonight/tokyonight.png

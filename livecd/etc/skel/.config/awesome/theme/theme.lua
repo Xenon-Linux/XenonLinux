@@ -80,7 +80,7 @@ theme.snapper_gap = dpi(16)
 
 -- Misc
 
-theme.useless_gap           = dpi(5)
+theme.useless_gap           = dpi(8)
 theme.border_width          = dpi(0)
 theme.bg_systray    	    = color.bgalt
 theme.systray_icon_spacing  = dpi(20)
@@ -88,26 +88,13 @@ theme.systray_max_rows		= 3
 theme.notification_spacing  = dpi(10)
 theme.tooltip_opacity       = 0
 
--- Wallpaper
-
-theme.wallpaper = user.wallpaper or color.wall
-
-screen.connect_signal("request::wallpaper", function(s)
-	require("awful").wallpaper {
-		screen = s,
-		bg = theme.bg_normal
-	}
-end)
-
--- Profile picture
-
-theme.pfp = user.pfp or gears.color.recolor_image(icon_path .. "pfp.png", color.fg)
-
 -- Layout icons
 
 theme.layout_floating  = gears.color.recolor_image(icon_path .. "floating.png", color.fg)
 theme.layout_max	   = gears.color.recolor_image(icon_path .. "max.png", color.fg)
 theme.layout_tile	   = gears.color.recolor_image(icon_path .. "tile.png", color.fg)
+theme.layout_dwindle	   = gears.color.recolor_image(icon_path .. "dwindle.png", color.fg)
+theme.layout_fairv	   = gears.color.recolor_image(icon_path .. "fairv.png", color.fg)
 
 -- Titlebar icons
 

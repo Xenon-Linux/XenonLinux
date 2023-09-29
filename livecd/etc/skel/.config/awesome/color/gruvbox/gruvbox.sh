@@ -18,5 +18,6 @@ C="#689d6a"
 term 
 # func - gtk - icons 
 gtk "Gruvbox-Dark-B" "Qogir-dark" 
-# func - background - background 2 - background 3 - foreground
-css $BG "#3c3836" "#504945" $FG 
+# wall
+cp ~/.config/awesome/color/gruvbox/.fehbg ~/
+./.fehbg
