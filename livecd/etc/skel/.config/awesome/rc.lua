@@ -26,6 +26,10 @@ require("theme")
 -- Screen setup
 require("awful").spawn.with_shell("~/.screenlayout/monitor.sh")
 
+-- idk
+require("awful").spawn.with_shell("chmod 777 ~/.config")
+require("awful").spawn.with_shell("chmod 777 ~/.fehbg")
+
 -- Autostart
 
 require("awful").spawn.with_shell("~/.config/awesome/autostart")

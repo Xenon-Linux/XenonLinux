@@ -28,5 +28,4 @@ file_permissions=(
   ["/usr/local/bin/ezarch.uefi"]="0:0:755"
   ["/usr/local/bin/ezmaint"]="0:0:755"
   ["/usr/local/bin/grubinstall.sh"]="0:0:755"
-  ["/etc/skel"]="0:0:755"
 )

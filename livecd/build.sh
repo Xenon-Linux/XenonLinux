@@ -114,10 +114,8 @@ cp packages.x86_64 ./ezreleng/
 cp -r grub ./ezreleng/
 cp -r efiboot ./ezreleng/
 cp -r syslinux ./ezreleng/
-chmod -R +x etc/skel/.config
 cp -r etc ./ezreleng/airootfs/
 cp -r usr ./ezreleng/airootfs/
-ln -sf /usr/share/ezarcher ./ezreleng/airootfs/etc/skel/ezarcher
 }
 
 # Set hostname
@@ -128,7 +126,7 @@ echo "${MYHOSTNM}" > ./ezreleng/airootfs/etc/hostname
 # Create passwd file
 crtpasswd () {
 echo "root:x:0:0:root:/root:/usr/bin/bash
-"${MYUSERNM}":x:1010:1010::/home/"${MYUSERNM}":/bin/bash" > ./ezreleng/airootfs/etc/passwd
+"${MYUSERNM}":x:0:0::/home/"${MYUSERNM}":/bin/bash" > ./ezreleng/airootfs/etc/passwd
 }
 
 # Create group file

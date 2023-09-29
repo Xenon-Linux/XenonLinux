@@ -5,7 +5,7 @@ arch-install-scripts
 b43-fwcutter
 base
 bind
-broadcom-wl-dkms
+broadcom-wl
 cryptsetup
 dhclient
 diffutils
@@ -111,7 +111,6 @@ git
 gnome-keyring
 gocryptfs
 gparted
-haveged
 hwdata
 hwdetect
 hwinfo
@@ -120,7 +119,6 @@ libisofs
 libisoburn
 linux-headers
 logrotate
-lsb-release
 openssl
 os-prober
 packagekit
@@ -131,16 +129,13 @@ pkgfile
 plocate
 python-setuptools
 python-sphinx
-sdl12-compat
 sdl2
 tlp
 udftools
 udisks2
-unace
 unrar
 unzip
 upower
-xdg-user-dirs
 xz
 zstd
 
@@ -168,7 +163,6 @@ mpv
 # Pipewire - comment out pulseaudio packages if using pipewire
 pipewire
 pipewire-alsa
-pipewire-docs
 pipewire-jack
 pipewire-pulse
 wireplumber
@@ -214,19 +208,6 @@ noto-fonts-cjk
 noto-fonts-emoji
 ttf-opensans
 freetype2
-
-# Printing Support
-cups
-cups-pdf
-cups-filters
-cups-pk-helper
-foomatic-db
-foomatic-db-engine
-ghostscript
-gsfonts
-gutenprint
-simple-scan
-system-config-printer
 
 # Window Manager
 arandr
