@@ -1,2 +1,3 @@
 #!/bin/sh
-exec awesome
+
+exec bspwm

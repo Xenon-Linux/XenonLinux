@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill ~/.config/awesome/color/macaroni/macaroni.png
+feh --no-fehbg --bg-fill ~/.config/bspwm/color/macaroni/wall/macaroni.png

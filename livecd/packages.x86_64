@@ -130,10 +130,8 @@ plocate
 python-setuptools
 python-sphinx
 sdl2
-tlp
 udftools
 udisks2
-unrar
 unzip
 upower
 xz
@@ -210,41 +208,37 @@ ttf-opensans
 freetype2
 
 # Window Manager
+alacritty
 arandr
-awesome-git
-brightnessctl
-btop
+bspwm
 calcurse
+dunst
 feh
 firefox
-gd
 gtk-engine-murrine
-inetutils
 i3lock
 imagemagick
-inotify-tools
+libnotify
 neofetch
 lxappearance-gtk3
 mpc
 mpd
 ncmpcpp
-nemo
 neovim
+newsboat
 pavucontrol
+pcmanfm-gtk3
 picom
-playerctl
 polkit-gnome
-qogir-icon-theme
+polybar
 ranger
 rofi
 scrot
 sed
-w3m
+sxhkd
 xarchiver
 xdg-user-dirs-gtk
-xst-git
 xss-lock
-yad
 zathura
 zathura-pdf-mupdf
 zip
@@ -289,3 +283,6 @@ mkinitcpio-openswap
 
 # AUR
 yay
+
+# xenonlinux things
+xenonlinux-bspwm
